@@ -1,0 +1,31 @@
+{
+  "name": "yotpcmd",
+  "version": "1.0.0",
+  "description": "Simple commandline example to test yubikey OTP in Node.js using commandline prompt",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "debugdemo": "DEBUG=error,ok node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serganus/YubikeyOTPcmd.git"
+  },
+  "keywords": [
+    "yubikey",
+    "otp",
+    "u2f",
+    "authentication"
+  ],
+  "author": "Gautam Anand <me@gautamanand.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serganus/YubikeyOTPcmd/issues"
+  },
+  "homepage": "https://github.com/serganus/YubikeyOTPcmd#readme",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "prompt": "^1.0.0",
+    "yubikey": "0.0.2"
+  }
+}
